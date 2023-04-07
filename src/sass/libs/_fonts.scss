@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: local("Roboto"), url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto-Bold.eot") format("eot"),
+    url("../fonts/Roboto-Bold.otf") format("otf"),
+    url("../fonts/Roboto-Bold.svg") format("svg"),
+    url("../fonts/Roboto-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: local("Roboto"), url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.eot") format("eot"),
+    url("../fonts/Roboto-Regular.otf") format("otf"),
+    url("../fonts/Roboto-Regular.svg") format("svg"),
+    url("../fonts/Roboto-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: local("Roboto"), url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff"),
+    url("../fonts/Roboto-Light.eot") format("eot"),
+    url("../fonts/Roboto-Light.otf") format("otf"),
+    url("../fonts/Roboto-Light.svg") format("svg"),
+    url("../fonts/Roboto-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed - Bold", sans-serif;
+  src: local("Roboto Condensed"),
+    url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-Bold.woff") format("woff"),
+    url("../fonts/RobotoCondensed-Bold.eot") format("eot"),
+    url("../fonts/RobotoCondensed-Bold.otf") format("otf"),
+    url("../fonts/RobotoCondensed-Bold.svg") format("svg"),
+    url("../fonts/RobotoCondensed-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed - Regular", sans-serif;
+  src: local("Roboto Condensed"),
+    url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-Regular.woff") format("woff"),
+    url("../fonts/RobotoCondensed-Regular.eot") format("eot"),
+    url("../fonts/RobotoCondensed-Regular.otf") format("otf"),
+    url("../fonts/RobotoCondensed-Regular.svg") format("svg"),
+    url("../fonts/RobotoCondensed-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}

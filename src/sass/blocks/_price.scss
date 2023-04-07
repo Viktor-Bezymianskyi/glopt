@@ -1,0 +1,120 @@
+.price {
+  /* padding: 46px 0 80px 0; */
+  padding-top: 46px;
+  min-height: 555px;
+  &__title {
+    margin-bottom: 28px;
+  }
+  &__subtitle {
+    margin-bottom: 31px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    &-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2px 2px 25px 2px;
+      width: 265px;
+      height: 355px;
+      border: 1px solid #e9e9e9;
+    }
+    &-background {
+      width: 261px;
+      height: 61px;
+      background-color: #25333c;
+      padding-top: 20px;
+      margin-bottom: 9px;
+    }
+    &-delivery {
+      color: #ffffff;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    &-img {
+      margin-bottom: 10px;
+    }
+    &-title {
+      color: $text_color2e;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    &-price {
+      color: $main-color;
+      font-size: 28px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    &-descr {
+      color: $text_color2e;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+      text-align: center;
+    }
+    &-link {
+      position: absolute;
+      left: 50px;
+      transform: translateY(50%);
+    }
+  }
+}
+
+.consultation {
+  min-height: 320px;
+  h2 {
+    color: $text_color3a;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  &__wrapper {
+    width: 820px;
+    margin: 0 auto;
+  }
+  .feed-form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__free {
+    position: relative;
+    width: 100%;
+    min-height: 166px;
+    padding-top: 65px;
+    border: 1px solid #898989;
+  }
+  &__circle {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    border: 1px solid #e93b3b;
+    background-color: #ec644b;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+  }
+  &__input {
+    width: 270px;
+    height: 45px;
+    input {
+      width: 100%;
+      height: 100%;
+      padding: 20px 10px 17px 30px;
+    }
+    &-link {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 14px 12px;
+      top: 90%;
+    }
+  }
+}

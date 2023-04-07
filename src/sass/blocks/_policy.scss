@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.policy {
+  padding: 30px;
+  background-color: #b0e0e6;
+  &__head {
+    line-height: 32px;
+    margin-bottom: 2rem;
+  }
+  &__descr {
+    padding-left: 1rem;
+    text-align: left;
+    li {
+      padding-bottom: 1rem;
+    }
+  }
+  &__descr-2 {
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+  &__title {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  &__subtitle {
+    text-align: left;
+  }
+  &__sites_2 {
+    color: $main-color;
+    &:hover {
+      color: $main-color;
+      text-decoration: underline;
+    }
+  }
+}

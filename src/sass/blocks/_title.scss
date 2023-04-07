@@ -1,0 +1,30 @@
+.title {
+  color: $text_color2e;
+  text-align: center;
+  &_fz26 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  &_fz21 {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 34px;
+  }
+  &_fz18 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &_fz16 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &_fz14 {
+    font-size: 14px;
+    font-weight: 300;
+    color: $text_color3a;
+  }
+}

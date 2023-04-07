@@ -1,0 +1,42 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/fonts";
+@import "libs/slick";
+@import "libs/animate";
+
+@import "base/variables";
+/* @import "base/mixins";
+ */
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  /* position: relative; */
+}
+.divider {
+  margin: 0 auto;
+  width: 148px;
+  height: 1px;
+  background-color: $main-color;
+  margin-bottom: 15px;
+}
+
+@import "blocks/title";
+@import "blocks/promo";
+@import "blocks/button";
+@import "blocks/advantages";
+@import "blocks/work";
+@import "blocks/agent";
+@import "blocks/price";
+@import "blocks/managers";
+@import "blocks/carousel";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+@import "blocks/media";
+@import "blocks/policy";

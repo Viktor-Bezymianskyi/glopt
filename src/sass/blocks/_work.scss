@@ -1,0 +1,19 @@
+.work {
+  min-height: 625px;
+  padding: 52px 0 62px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 390px;
+    &-img {
+      margin-bottom: 24px;
+    }
+    &-title {
+      margin-bottom: 10px;
+      color: $main-color;
+    }
+    &-subtitle {
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.carousel {
+  min-width: 470px;
+  padding: 50px 0 68px 0;
+  &__inner {
+    position: relative;
+    min-height: 240px;
+    width: 631px;
+    margin: 0 auto;
+    div {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      img {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    left: -66px;
+    border: none;
+    background-color: #fff;
+    &:focus {
+      outline: none;
+    }
+    img {
+      width: 14px;
+      height: 47px;
+    }
+  }
+  .slick-next {
+    right: -66px;
+    left: auto;
+  }
+}
